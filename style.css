@@ -306,7 +306,7 @@ p.d {
 /* Media Queries 
 ____________________________________________*/
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 	#sumbox{
 		width: auto;
 		height: auto;
@@ -330,7 +330,7 @@ ____________________________________________*/
 		margin-left: 5%;
 		margin-top: -10%; 
 		margin-bottom: 100px;
-		width: auto;
+		width: 450px;
 		height: 400px;
 		padding: 10px 50px 15px 80px;
 
@@ -381,7 +381,7 @@ ____________________________________________*/
 	}	
 }
 
-@media (max-width: 768px) {
+@media (max-width: 690px) {
 	#comp-img {
 		vertical-align: middle;
 		width: 100% !important;
