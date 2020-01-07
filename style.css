@@ -306,7 +306,7 @@ p.d {
 /* Media Queries 
 ____________________________________________*/
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 	#sumbox{
 		width: auto;
 		height: auto;
