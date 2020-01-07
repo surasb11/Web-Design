@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Humidity</title>
+		<title>Comparison</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -20,7 +20,7 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	
-	 <a class="navbar-brand nav-link active nav-item"  id="btn-nvg" href="file:///Users/sura/Desktop/1-Homework/11-web-design-challenge/WebVisualizations/pages/landing-page.html">Lattitude</a>
+	 <a class="navbar-brand nav-link active nav-item"  id="btn-nvg" href="file:///Users/sura/Desktop/1-Homework/11-web-design-challenge/surasb11.github.io/WebVisualizations/landing-page.html">Lattitude</a>
 
 	<div class="collapse justify-content-end navbar-collapse">
 		<ul class="navbar-nav">
@@ -48,57 +48,51 @@
 	</div>
 </nav>
 
-<div class="container">
-	<div class="row">
-		<div class="col-lg-7 col-md-12">
-			<div class="box" id="maxtempbox">
-
-	<h3 class="title">Humidity</h3>
-	<hr>
-		<img src="../Resources/images/Fig2.png" id="max-temp-img" alt="Humidity">&#160;
-		<span class="caption">
-		
-		<p class="category a"> Humidity does not show a strong correlation to latitude. The visualization shows a great variety of humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive pattern between humidity and latitude.</p>&#160;
-			
-			</div>
-		</div>
-	
-	<div class="col-lg-5 col-md-12">
-		<div class="box" id="vizbox">
-			<h5 class="title">Visualizations</h5>
+	<div class="container">
+		<div class="box" id="comparisonbox">
+			<div class="row">
+				<div class="col-md-12">
+				
+			<h3 class="title">Comparison: Latitude vs X</h3>
 			<hr>
-			<div class="container">
-				<div class="row">
-					<div class="col-5 nav-item">
-						<a class="nav-link active" id="vizBar" href="max-temp.html">
-						<img class="panel" src="../Resources/images/Fig1.png" alt="Max Temperature Image" id="viz-img"></a>
-					</div>
-						
-					<div class="col-7 nav-item">
-						<a class="nav-link active" href="humidity.html" id="vizBar">
-						<img class="panel" src="../Resources/images/Fig2.png" alt="Humidity Graph" id="viz-img"></a>
-					</div>
+				<p class="f">Click any plot to get an in-depth analysis.</p>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="comp-title">vs. Max Temperature</div>
+						<a class="nav-link active" id="comp-bar" href="max-temp.html">
+						<img class="panel" id="comp-img" src="./Resources/images/Fig1.png" alt="Max Temperature Image"></a>
 				</div>
 					
-				<div class="row">
-					<div class="col-5 nav-item">
-						<a class="nav-link active" href="cloudiness.html" id="vizBar">
-						<img class="panel" src="../Resources/images/Fig3.png" alt="Cloudiness Graph" id="viz-img"></a>
-					</div>
-						
-					<div class="col-7 nav-item">
-						<a class="nav-link active" href="wind_speed.html" id="vizBar">
-						<img class="panel" src="../Resources/images/Fig4.png" alt="Wind Speed Graph" id="viz-img"></a>
-					</div>
+				<div class="col-lg-6">
+					<div class="comp-title">vs. Humidity</div>
+						<a class="nav-link active" id="comp-bar" href="humidity.html">
+						<img class="panel" id="comp-img" src="./Resources/images/Fig2.png" alt="Humidity Graph"></a>
+					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="comp-title">vs. Cloudiness</div>
+						<a class="nav-link active" id="comp-bar" href="cloudiness.html">
+						<img class="panel" id="comp-img" src="./Resources/images/Fig3.png" alt="Cloudiness Graph"></a>
+
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="comp-title">vs. Wind Speed</div>
+						<a class="nav-link active" id="comp-bar" href="wind_speed.html">
+						<img class="panel" id="comp-img" src="./Resources/images/Fig4.png" alt="Wind Speed Graph"></a>
 				</div>
 			</div>
 		</div>
-
+	</div>
+	
 	<div id="page-container">
 		<div class="footer">
 		<p class="d">Copyright © Sura Baghirova 2019</p>
 		</div>
 	</div>
-		
 </body>
 </html>
