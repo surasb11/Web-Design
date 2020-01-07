@@ -381,7 +381,7 @@ ____________________________________________*/
 	}	
 }
 
-@media (max-width: 690px) {
+@media (max-width: 768px) {
 	#comp-img {
 		vertical-align: middle;
 		width: 100% !important;
