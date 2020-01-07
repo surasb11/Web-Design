@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Landing Page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-expand navbar-white flex-column flex-md-row navbar-light">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse navbarNavDropdown" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	 <a class="navbar-brand nav-link active nav-item" id="btn-nvg" href="file:///Users/sura/Desktop/1-Homework/11-web-design-challenge/WebVisualizations/pages/landing-page.html">Lattitude</a>
+
+	<div class="collapse justify-content-end navbar-collapse navbar-collapse collapse show">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown" id="navbarCollapse">
+				<a class="nav-link active dropdown-toggle" href="#" id="navbarPlot" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots<span class="sr-only">(current)</span></a>
+				
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="max-temp.html">Max Temperature</a>
+					
+			<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="humidity.html">Humidity</a>
+					
+			<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+			<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+			</div>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link active" id="navbarRight" href="comparison.html">Comparison</a></li>
+			<li class="nav-item">
+				<a class="nav-link active" id="navbarRight" href="data.html">Data</a></li>
+		</ul>
+	</div>
+</nav>
+	
+<div class="container">
+	<div class="row">
+		<div class="col-lg-7 col-md-12">
+			<div class="box" id="sumbox">
+
+	<h3 class="title">Summary: Latitude vs. X</h3>
+	<hr>
+		<img src="../Resources/images/Fig1.png" id="city-lat-img" alt="City Latitude vs. Max Temperature">&#160;
+		
+		<p class="category a"> The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 547 cities.</p>&#160;
+		
+		<p class="category a">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
+			
+			</div>
+		</div>
+	
+	<div class="col-lg-5 col-md-12">
+		<div class="box" id="vizbox">
+			<h5 class="title">Visualizations</h5>
+			<hr>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-5 nav-item">
+						<a class="nav-link active" id="vizBar" href="max-temp.html">
+						<img class="panel" src="../Resources/images/Fig1.png" alt="Max Temperature Image" id="viz-img"></a>
+					</div>
+					
+					<div class="col-7 nav-item">
+						<a class="nav-link active" href="humidity.html" id="vizBar">
+						<img class="panel" src="../Resources/images/Fig2.png" alt="Humidity Graph" id="viz-img"></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-5 nav-item">
+						<a class="nav-link active" href="cloudiness.html" id="vizBar">
+						<img class="panel" src="../Resources/images/Fig3.png" alt="Cloudiness Graph" id="viz-img"></a>
+					</div>
+					
+					<div class="col-7 nav-item">
+						<a class="nav-link active" href="wind_speed.html" id="vizBar">
+						<img class="panel" src="../Resources/images/Fig4.png" alt="Wind Speed Graph" id="viz-img"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<div id="page-container">
+		<div class="footer">
+		<p class="d">Copyright © Sura Baghirova 2019</p>
+		</div>
+	</div>
+		
+</body>
+</html>
